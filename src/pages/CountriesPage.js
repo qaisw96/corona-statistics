@@ -43,7 +43,8 @@ const CountriesPage = () => {
       <div className='flex mt-12 items-center justify-between'>
         <SearchInput {...searchInputProps} />
         <RiFilterOffLine
-          className='text-2xl cursor-pointer'
+          size={30}
+          className='cursor-pointer'
           onClick={clearSort}
         />
       </div>

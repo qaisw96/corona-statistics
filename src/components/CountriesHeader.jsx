@@ -25,7 +25,7 @@ const CountriesHeader = (props) => {
   };
 
   return (
-    <div className='flex flex-1 flex-col md:flex-row justify-around items-center px-3 ml-8 mt-4'>
+    <div className='flex flex-1 flex-col md:flex-row justify-around items-center px-3 mt-4'>
       <div className='flex'>
         <p className='ml-8'>Country</p>
       </div>
